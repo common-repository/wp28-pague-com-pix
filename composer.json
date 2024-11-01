@@ -1,0 +1,19 @@
+{
+    "name": "notebook/wp28-pague-com-pix",
+    "type": "project",
+    "description": "",
+    "authors": [
+        {
+            "name": "Guilherme Pereira",
+            "email": "guilherme00pereira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WP28\\PAGUECOMPIX\\": "src"
+        }
+    },
+    "require": {
+        "chillerlan/php-qrcode": "^4.3"
+    }
+}
